@@ -25,7 +25,7 @@ We propose a new mechanism for masking one's web identity by leveraging cloud co
 5. The password_handler.py Lambda is deployed, which will be used at a later time to retrieve the EC2 Windows admin password. This function relies on the rsa-layer.zip file, which holds the libraries for rsa encryption/decryption.
 6. Once the initial deployment occurs, the below steps are followed for the remainder of the time. 
 
-![Architecture](architecture.png)
+![Architecture](Anti-Fingerprinting-Architecture.png)
 ##### NOTE: This architecture is deployed in Amazon Web Services (AWS) using the AWS Cloud Development Kit (CDK). 
 
 #### Storing of EC2 Passwords
